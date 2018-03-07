@@ -45,14 +45,6 @@ img {
   margin: 5px;
 }
 
-.lb-nav a.lb-prev {
-  opacity: 1;
-}
-
-.lb-nav a.lb-next {
-  opacity: 1;
-}
-
 #lightboxOverlay {
   position: fixed !important;
   top: 0;
@@ -72,6 +64,15 @@ img {
 .gallery {
   max-width:1000px;
   margin: auto;
+}
+  .lb-nav a.lb-prev {
+  opacity: 1;
+  margin-left: -55px;
+}
+
+.lb-nav a.lb-next {
+  opacity: 1;
+  margin-right: -55px;
 }
 
 }
