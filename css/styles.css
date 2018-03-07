@@ -61,18 +61,26 @@ img {
 
 @media (min-width: 768px){
 
-.gallery {
-  max-width:1000px;
-  margin: auto;
-}
+  .gallery {
+    max-width:1000px;
+    margin: auto;
+  }
   .lb-nav a.lb-prev {
   opacity: 1;
   margin-left: -55px;
-}
+  }
 
-.lb-nav a.lb-next {
-  opacity: 1;
-  margin-right: -55px;
-}
-
+  .lb-nav a.lb-next {
+    opacity: 1;
+    margin-right: -55px;
+  }
+  .lb-outerContainer {
+    width: 650px !important;
+    height: auto !important;
+  }
+  .lb-container .lb-image {
+    width: 650px !important;
+    margin: 0 auto;
+    height: auto !important;
+  }
 }
